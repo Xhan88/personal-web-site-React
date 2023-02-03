@@ -1,0 +1,36 @@
+.logo-navbar{
+  height: 5rem;
+  width: 5rem;
+  margin: 20px;
+  margin-right: 50px;
+  border-radius: 10px;
+}
+.logo-navbar:hover{
+  filter: opacity(.5);
+}
+.Navbar-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-bar-list {
+  list-style: none;
+  margin: 40px;
+  display: flex;
+  cursor: pointer;
+  text-decoration-line: none;
+}
+li:hover{
+  color: aqua;
+  
+}
+li{
+  margin-left: 70px;
+  text-decoration: none;
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+
