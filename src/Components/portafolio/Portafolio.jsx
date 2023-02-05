@@ -1,29 +1,50 @@
-import React from 'react'
-import '../portafolio/Portafolio.css'
+// import { Link } from 'react-router-dom'
+// import './Portafolio.css'
 
-const Portafolio = () => {
-  return (
-    <div className='container-job'>
-      <div className='container-image-p'>
-      <h2>E-Commerce toys</h2>
-        <a href="https://grand-treacle-70f385.netlify.app" target="_blank"><img src="/proyecto1.jpg" alt="" /></a>
-        
-
-        <div className='container text'>
-          
-          <p>Lorem ipsum dolor sit, 
-            amet consectetur adipisicing elit. 
-            Commodi cumque nisi delectus quod
-             id quos inventore enim dolore ad ipsam amet, 
-             dolores nobis, ullam quasi ipsa porro! Enim, 
-             dolorem nobis.</p>
-          <a href='https://github.com/Xhan88/entrega-final-e-commerce-Martinez' target="_blank">
-             <button className='btn btn-outline-light'>view code</button>
-          </a>
+// const Portafolio = ({ proyect }) => {
+//     return (
+//         <div            
+//             style={{ marginLeft: 100}}
+//             className='col-md-3'
+//             // key={product.id}
+//         >    
             
-        </div>
+//             <div className="card w-100 mt-5" >
+//                 <div className="card-header">
+//                     {proyect.name}
+//                 </div>
+//                 <div className="card-body">
+//                     <img src={proyect.image} alt='' className='w-50' />
+//                     <spam >{proyect.url} </spam>
+                                                                               
+//                 </div>
+        
+//                 {/* <div className="card-footer"> 
+                
+//                     <Link to={`/detail/${proyect.proyecto}`}>
+//                         <button className="btn btn-outline-primary btn-block">
+//                             detalle del producto
+//                         </button>
+//                     </Link >                                                       
+                
+                
+//                 </div> */}
+//             </div>
+                            
+            
+//         </div> 
+//     )
+// }
 
-      </div>
+// export default Portafolio;
+
+
+import React from 'react'
+
+const Portafolio = ({proyect}) => {
+  return (
+    <div>
+      <h1>hola nana</h1>
     </div>
   )
 }
