@@ -1,36 +1,21 @@
-.logo-navbar{
-  height: 5rem;
-  width: 5rem;
-  margin: 20px;
-  margin-right: 50px;
-  border-radius: 10px;
-}
-.logo-navbar:hover{
-  filter: opacity(.5);
-}
-.Navbar-container{
+.NavBar{
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.nav-bar-list {
-  list-style: none;
-  margin: 40px;
-  display: flex;
-  cursor: pointer;
-  text-decoration-line: none;
-}
-li:hover{
-  color: aqua;
-  
+  margin-left: 30px;
 }
 li{
-  margin-left: 70px;
+  margin-right: 60px;
+  margin-top: 20px;
+  cursor: pointer;
   text-decoration: none;
+  list-style: none;
   color: white;
 }
+
+li:hover{
+  color:rgb(11, 87, 180);
+  
+}
 a {
+  list-style: none;
   text-decoration: none;
 }
-

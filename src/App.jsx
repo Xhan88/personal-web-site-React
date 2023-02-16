@@ -1,21 +1,13 @@
 import React from 'react'
-import '../src/App.css'
+import './App.css'
 
 const App = () => {
   return (
-    <>
-    <div className='presentation-contaier'>
-     <h1 className='presentacion'>
-        <span>Hello</span>
-         <span>Mi name is Christian Martínez, </span>
-         <span>i'am React Developer jr.</span>
-          <span>i have studies in Udemy and CoderHouse</span>
-      </h1>
-
+    <div className='presentation'>
+      <h1 className='greething'>Hello My Name Is Christian Martínez</h1>  
+      <h2 className='greething-presentation'>I am developer web </h2>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
     </div>
-     
-    </>
   )
 }
 
-export default App
+export default App;

@@ -1,37 +1,62 @@
-.presentacion{
-  display: inline-block;
-  margin: 80px;
-  display: flex;
-  flex-direction: column;
+.presentation {
+  color:white;
+font-family: monospace;
 }
 
-.presentation-contaier{
-  background-color: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(20px);
-  border: solid 1px rgba(255, 255, 255, 0.5);
-  border-radius: 5px;
-  width: 70%;
-  margin: 0 auto;
-  padding: 3px;
+.greething{
+  font-size: 60px;
+   margin-top: 300px;
+   margin-left: 30px;
+   overflow: hidden;
+   white-space: nowrap;
+   border-right: 0.15em solid #ffffff;
+   animation: typing 1s steps(28) 0.5s 1 normal both, blink 1s steps(1) infinite;
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  
+   
 }
 
-span {
-  line-height: 80px;
-  display: block;
-  font-family: monospace;
-  white-space: nowrap;
-  border-right: 4px, solid;
-  width: 38ch;
-  animation: typing 2s steps(12),
-  blink .5s infinite step-end alternate;
-  overflow: hidden;
-} 
-
-@keyframes typing{
-  from{ width: 0;}
+.greething-presentation{
+  color: white;
+   margin-top: 30px;
+   margin-left: 30px;
+   overflow: hidden;
+   white-space: nowrap;
+   border-right: 0.15em solid #ffffff;
+   animation: typing 1s steps(28) 0.5s 1 normal both, blink 1s steps(1) infinite;
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  
+   
 }
 
-@keyframes blink {
-  50% {border-color: transparent}
- }
+body {
+  background: url(/space.jpg)no-repeat;
+  background-size: cover;
+  height: 52rem;
+  
+}
 
