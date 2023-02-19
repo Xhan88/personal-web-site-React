@@ -1,4 +1,5 @@
 import React from 'react'
+import '../Form/Form.css'
 
 const Form = () => {
   return (
@@ -7,15 +8,15 @@ const Form = () => {
         <form>
           <input 
           type="email"
-          placeholder='Tu Email'
+          placeholder='Email'
            />
           <input 
           type="text"
-          placeholder='Tu nombre'
+          placeholder='Name'
            />
           <input 
           type="text-area"
-          placeholder='Asunto' />
+          placeholder='Enter your menssage' />
         </form>
 
       </div>

@@ -1,12 +1,46 @@
 .Contact{
-  background-color: #d3d3d3;
-  height: 52.5rem;
+  background-color: #1f1d1d;
+  height: 52.8rem;
   margin-top: -70px;
 }
-
-.form {
+.contact-title{
+  color: darkturquoise;
+  padding-top: 70px;
+  padding-bottom: -10rem;
+  padding-left: 40%;
+}
+.contact-list li{
+  margin: 20px;
+  color: rgb(224, 224, 224);
+  list-style: none;
   display: flex;
+  padding-right: 80px;
   flex-direction: column;
   align-items: center;
-  padding-top: 20rem;
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.contact-list {
+  margin-top: 10rem;
+}
+
+.followMe {
+ padding-left: 30rem;
+ color: darkturquoise;
+ 
+}
+
+.social-network {
+  color: aliceblue;
+  display: flex;
+  margin-left: 32.5rem;
+}
+.social-network li{
+  margin: 20px;
+  list-style: none;
+  cursor: pointer;
+}
+.social-network li:hover{
+  color: darkturquoise;
+  font-size: 20px;
 }

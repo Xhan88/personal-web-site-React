@@ -1,0 +1,14 @@
+.form input{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-left: 250px;
+ margin-top: 20px;
+ height: 40px;
+ width: 30rem;
+ border-color: darkturquoise;
+}
+
+.form{
+  margin-top: 8rem;
+}

@@ -1,6 +1,6 @@
 .works{
-  background-color: #d3d3d3;
-  height: 52.5rem;
+  background-color: #1f1d1d;
+  height: 52.8rem;
   margin-top: -70px;
 }
 
@@ -12,9 +12,24 @@
 }
 .proyect-description {
   font-size: 15px;
-  color: rgb(0, 0, 0);
+  color: rgb(224, 224, 224);
   margin-right: 16rem;
   margin-left: 16rem;
   font-family: 'Courier New', Courier, monospace;
   line-height: 30px;
+}
+.title-works{
+  color: darkturquoise;
+}
+
+@media (max-width:  375px)   {
+    .works p{
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      margin: 0;
+    }
+    body {
+      background-size: 100%;
+    }
 }

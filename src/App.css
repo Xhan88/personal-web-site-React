@@ -49,14 +49,27 @@ font-family: monospace;
     50% {
       border-color: transparent;
     }
-  
-   
+     
 }
 
 body {
   background: url(/space.jpg)no-repeat;
   background-size: cover;
-  height: 52rem;
-  
+  height: 52rem; 
+}
+
+@media (max-width:  375px)   {
+    .NavBar{
+      flex-direction: column;
+    }
+    body{
+      background: url(/space.jpg)no-repeat;
+      background-size: cover;
+      height: 45rem;
+    }
+    .greething-presentation{
+      font-size: 20px;
+    }
+    
 }
 

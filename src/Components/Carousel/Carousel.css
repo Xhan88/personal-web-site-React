@@ -8,13 +8,18 @@
 }
 .carousel-item.active {
   display: flex;
+  flex-direction: row;
   padding: 0 100px 0 100px;
 }
-.carousel-control-next, 
+
 
 .carousel-control-next, .carousel-control-prev  {
   background-color: black;
   height: 100px;
   width: 100px;
   margin-top: 7rem;
+}
+.visually-hidden{
+  display: none;
+ 
 }
