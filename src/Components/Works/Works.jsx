@@ -4,8 +4,7 @@ import '../Works/Works.css'
 
 const Works = () => {
   
-  return (
-    
+  return (  
     <div className='works'>
       <div className='description'>
         <h1 className='title-works'>| Works |</h1>

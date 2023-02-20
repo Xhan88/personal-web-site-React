@@ -5,52 +5,53 @@ const Carousel = () => {
   return (
     <div>
       <div id="carouselExample" className="carousel slide ">
-  <div className="carousel-inner">
+        <div className="carousel-inner">
 
-    <div className="carousel-item active img-style">
-        <a href="https://github.com/Xhan88/Buscdor-De-Gifs">
-            <img 
-            src="/proyect-01.jpg"  
-            className="d-block  img-proyect" 
-            alt=""/>
-        </a>
+          <div className="carousel-item active img-style">
+              <a href="https://github.com/Xhan88/Buscdor-De-Gifs">
+                  <img 
+                  src="/proyect-01.jpg"  
+                  className="d-block  img-proyect" 
+                  alt=""/>
+              </a>
 
-        <a href="https://github.com/Xhan88/proyecto-final-e-commerce">
-            <img 
-            src="/proyect-02.jpg" 
-            className="d-block  img-proyect" 
-            alt=""/>
-        </a>
+              <a href="https://github.com/Xhan88/proyecto-final-e-commerce">
+                  <img 
+                  src="/proyect-02.jpg" 
+                  className="d-block  img-proyect" 
+                  alt=""/>
+              </a>
 
-        <a href="https://github.com/Xhan88/Blog-To-News">
-            <img 
-            src="/proyect-03.jpg" 
-            className="d-block  img-proyect" 
-            alt=""/>
-        </a>
-          
-    </div>
+              <a href="https://github.com/Xhan88/Blog-To-News">
+                  <img 
+                  src="/proyect-03.jpg" 
+                  className="d-block  img-proyect" 
+                  alt=""/>
+              </a>
+                
+          </div>
 
    <div className="carousel-item img-style">
-     <a href="https://github.com/Xhan88/Festival-de-musica">
-             <img 
-             src="/proyect-04.jpg" 
-             className="d-block  img-proyect"  
-             alt=""/>
-     </a>
-     <a href="https://github.com/Xhan88/challeng-3"> 
-             <img 
-             src="/proyect-05.jpg" 
-             className="d-block  img-proyect" 
-             alt=""/>
-    </a>
-     <a href="https://github.com/Xhan88/game-memo">      
-            <img 
-            src="/proyect-06.jpg" 
-            className="d-block  img-proyect" 
-            alt=""/>
-    </a>
+        <a href="https://github.com/Xhan88/Festival-de-musica">
+                <img 
+                src="/proyect-04.jpg" 
+                className="d-block  img-proyect"  
+                alt=""/>
+        </a>
 
+        <a href="https://github.com/Xhan88/challeng-3"> 
+                <img 
+                src="/proyect-05.jpg" 
+                className="d-block  img-proyect" 
+                alt=""/>
+        </a>
+
+        <a href="https://github.com/Xhan88/game-memo">      
+                <img 
+                src="/proyect-06.jpg" 
+                className="d-block  img-proyect" 
+                alt=""/>
+        </a>
     </div>
 
   </div>

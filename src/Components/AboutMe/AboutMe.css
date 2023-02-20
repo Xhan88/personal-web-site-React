@@ -3,8 +3,7 @@
   height: 52.8rem;
   margin-top: -70px;
   color: white;
-  padding-left: 11rem;
-  
+  padding-left: 11rem; 
 }
 
 .descriptionMe {
@@ -36,8 +35,28 @@ span{
 }
 .about-me-title {
   color:darkturquoise;
-  padding-top: 70px;
+  padding-top: 20px;
   padding-bottom: -10rem;
-  padding-left: 37%;
-  
+  padding-left: 37%; 
+  margin-top: 10px;
+}
+
+@media (max-width: 375px )   {
+  .AboutToMe{
+    display: flex;
+    flex-direction: column;
+    margin-top: -40px;
+  }
+  .about-me-title{
+    margin-left: -70px;
+    padding-top: 40px;
+    padding-left: 20px;
+  }
+  .descriptionMe{
+    margin-left: -140px;
+    margin-right: 1rem;
+  }
+  img{
+    display: none;
+  }
 }

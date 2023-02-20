@@ -11,8 +11,6 @@
   flex-direction: row;
   padding: 0 100px 0 100px;
 }
-
-
 .carousel-control-next, .carousel-control-prev  {
   background-color: black;
   height: 100px;
@@ -21,5 +19,21 @@
 }
 .visually-hidden{
   display: none;
- 
+}
+
+@media (max-width: 375px)   {
+  .img-proyect {
+    height: 20rem;
+    width: 25rem;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .carousel-item.active {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: -13px;   
+  }
 }

@@ -5,6 +5,7 @@
 .NavBar li{
   margin-right: 60px;
   margin-top: 20px;
+  margin-bottom: 20px;
   cursor: pointer;
   text-decoration: none;
   list-style: none;
@@ -12,8 +13,7 @@
 }
 
 .NavBar li:hover{
-  color:darkturquoise;
-  
+  color:darkturquoise; 
 }
 a {
   list-style: none;
