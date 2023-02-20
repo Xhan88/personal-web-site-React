@@ -8,21 +8,21 @@ const Carousel = () => {
         <div className="carousel-inner">
 
           <div className="carousel-item active img-style">
-              <a href="https://github.com/Xhan88/Buscdor-De-Gifs">
+              <a href="https://github.com/Xhan88/Buscdor-De-Gifs" target="_blank">
                   <img 
                   src="/proyect-01.jpg"  
                   className="d-block  img-proyect" 
                   alt=""/>
               </a>
 
-              <a href="https://github.com/Xhan88/proyecto-final-e-commerce">
+              <a href="https://github.com/Xhan88/proyecto-final-e-commerce" target="_blank">
                   <img 
                   src="/proyect-02.jpg" 
                   className="d-block  img-proyect" 
                   alt=""/>
               </a>
 
-              <a href="https://github.com/Xhan88/Blog-To-News">
+              <a href="https://github.com/Xhan88/Blog-To-News" target="_blank">
                   <img 
                   src="/proyect-03.jpg" 
                   className="d-block  img-proyect" 
@@ -32,21 +32,21 @@ const Carousel = () => {
           </div>
 
    <div className="carousel-item img-style">
-        <a href="https://github.com/Xhan88/Festival-de-musica">
+        <a href="https://github.com/Xhan88/Festival-de-musica" target="_blank">
                 <img 
                 src="/proyect-04.jpg" 
                 className="d-block  img-proyect"  
                 alt=""/>
         </a>
 
-        <a href="https://github.com/Xhan88/challeng-3"> 
+        <a href="https://github.com/Xhan88/challeng-3" target="_blank"> 
                 <img 
                 src="/proyect-05.jpg" 
                 className="d-block  img-proyect" 
                 alt=""/>
         </a>
 
-        <a href="https://github.com/Xhan88/game-memo">      
+        <a href="https://github.com/Xhan88/game-memo" target="_blank">      
                 <img 
                 src="/proyect-06.jpg" 
                 className="d-block  img-proyect" 

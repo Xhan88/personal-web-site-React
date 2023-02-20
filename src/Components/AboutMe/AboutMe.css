@@ -1,7 +1,7 @@
 .AboutToMe{
   background-color: #1f1d1d;
-  height: 52.8rem;
-  margin-top: -70px;
+  height: 55rem;
+  margin-top: -80px;
   color: white;
   padding-left: 11rem; 
 }
@@ -56,7 +56,7 @@ span{
     margin-left: -140px;
     margin-right: 1rem;
   }
-  img{
+  .imgMe{
     display: none;
   }
 }
