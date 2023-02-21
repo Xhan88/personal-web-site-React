@@ -20,7 +20,7 @@
 .title-works{
   color: darkturquoise;
 }
-@media (max-width:  375px)   {
+@media (max-width:  414px)   {
     .works p{
       display: flex;
       flex-direction: column;
